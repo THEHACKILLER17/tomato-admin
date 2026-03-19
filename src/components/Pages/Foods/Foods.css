@@ -1,0 +1,72 @@
+.foods-page h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.foods-count {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.foods-table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.foods-table-header,
+.foods-table-row {
+  display: grid;
+  grid-template-columns: 80px 2fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 14px 20px;
+  gap: 16px;
+}
+
+.foods-table-header {
+  background: #f9f9f9;
+  font-weight: 600;
+  font-size: 13px;
+  color: #888;
+  border-bottom: 1px solid #eee;
+}
+
+.foods-table-row {
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 14px;
+}
+
+.foods-table-row:last-child {
+  border-bottom: none;
+}
+
+.foods-table-row img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.foods-table-row button {
+  padding: 6px 14px;
+  background: tomato;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.foods-table-row button:hover {
+  background: #e14e32;
+}
+
+.foods-no-results {
+  padding: 24px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
