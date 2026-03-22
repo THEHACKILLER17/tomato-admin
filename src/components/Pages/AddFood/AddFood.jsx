@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import "./AddFood.css";
 
-const url = "http://localhost:4000";
+const url = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000";
 
 const CATEGORIES = [
   "BBQ", "Biryani", "Burger", "Cake", "Chinese",

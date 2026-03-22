@@ -3,7 +3,7 @@ import axios from "axios";
 import "./Orders.css";
 import SearchFilter from "../../SearchFilter/SearchFilter";
 
-const url = "http://localhost:4000";
+const url = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000";
 const ADMIN_TOKEN = import.meta.env.VITE_ADMIN_TOKEN;
 const STATUS_OPTIONS = ["Food Processing", "Out for Delivery", "Delivered"];
 

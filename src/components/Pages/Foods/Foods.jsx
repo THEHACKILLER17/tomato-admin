@@ -5,7 +5,7 @@ import SearchFilter from "../../SearchFilter/SearchFilter";
 import ConfirmToast from "../../ConfirmToast/ConfirmToast";
 import "./Foods.css";
 
-const url = "http://localhost:4000";
+const url = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000";
 
 const Foods = () => {
   const [foods, setFoods] = useState([]);
