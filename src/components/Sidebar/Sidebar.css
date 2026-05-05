@@ -46,3 +46,21 @@
   background: tomato;
   color: white;
 }
+
+.sidebar-logout {
+  margin-top: auto;
+  padding: 10px 16px;
+  background: transparent;
+  border: 1px solid #444;
+  color: #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.sidebar-logout:hover {
+  background: tomato;
+  border-color: tomato;
+  color: white;
+}
