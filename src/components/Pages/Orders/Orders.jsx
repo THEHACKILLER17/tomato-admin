@@ -127,7 +127,7 @@ const Orders = () => {
                   disabled={order.status === "Delivered"}
                 >
                   {STATUS_OPTIONS.map((s) => (
-                    <option key={s} value={s}>
+                    <option key={s} value={s} disabled={s === "Delivered"}>
                       {s}
                     </option>
                   ))}
