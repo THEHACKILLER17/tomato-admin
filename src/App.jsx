@@ -6,6 +6,7 @@ import AddFood from "./components/Pages/AddFood/AddFood";
 import Login from "./components/Pages/Login/Login";
 import AdminProtectedRoute from "./components/AdminProtectedRoute";
 import "./App.css";
+import AddDelivery from "./components/Pages/AddDelivery/AddDelivery";
 
 const App = () => {
   const isAuth = localStorage.getItem("adminAuth") === "true";
@@ -23,6 +24,7 @@ const App = () => {
                   <Route path="/" element={<Orders />} />
                   <Route path="/foods" element={<Foods />} />
                   <Route path="/add-food" element={<AddFood />} />
+                  <Route path="/add-delivery" element={<AddDelivery />} />
                 </Routes>
               </main>
             </div>

@@ -25,6 +25,9 @@ const Sidebar = () => {
         <NavLink to="/add-food" className={({ isActive }) => isActive ? "nav-item active" : "nav-item"}>
           ➕ Add Food
         </NavLink>
+        <NavLink to="/add-delivery" className={({ isActive }) => isActive ? "nav-item active" : "nav-item"}>
+          🛵 Add Delivery
+        </NavLink>
       </nav>
       <button className="sidebar-logout" onClick={handleLogout}>
         Logout
